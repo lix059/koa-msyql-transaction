@@ -1,6 +1,6 @@
 {
     "name": "koa-mysql-transaction",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Koa middleware that auto provides mysql connections.",
     "main": "index.js",
     "directories": {
