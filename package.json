@@ -1,0 +1,26 @@
+{
+    "name": "koa-mysql-transaction",
+    "version": "1.0.0",
+    "description": "Koa middleware that auto provides mysql connections.",
+    "main": "index.js",
+    "directories": {
+        "example": "examples"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lix059/koa-msyql-transaction.git"
+    },
+    "homepage": "https://github.com/lix059/koa-msyql-transaction",
+    "keywords": [
+    "koa",
+    "mysql",
+    "connect",
+    "pool",
+    "middleware"
+    ],
+    "author": "lix059",
+    "license": "MIT"
+}
