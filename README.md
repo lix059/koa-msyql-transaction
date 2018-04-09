@@ -52,7 +52,7 @@ Configuration is straightforward and you use it as any other middleware. First p
         await tran.beginTransaction();
         await tran.query('insert into tables set a=1');
         await tran.query('insert into tables set a=2');
-        await tran.rollback();
+        await tran.commit();
         await tran.release();
         ctx.body = "success";
       } catch(err) {  
